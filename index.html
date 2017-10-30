@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">  
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css"> 
+    <h1 class="headerName">Orange County Broaching</h1>
+    <div class="jobInfo">
+        <label>Company:</label>
+        <input type="text">
+        <label>Job Number:</label>
+        <input type="text">
+        <label>Part Number:</label>
+        <input type="text">
+    </div>  
+  </head>
+    <body>
+        <div class="container">
+            <div class="row topRow"> 
+                <div class="col-12 col-8">
+                    <div class="card">
+                        <div class="card-block topCard">
+                            <h1><b>Feed Calculator</b></h1>
+                            <h4>Fellows Z: 1410</h4>
+                            <h4>Fellows #7: 1125</h4>
+                            <form class="inputForm" id="xIsWhatPercentOfY">
+                                <div class="topForm">
+                                    <label><b>Number of Teeth in Cutter</b></label><br>
+                                    <input type="text" id="numField1"><br>
+                                    <label><b>Diametral Pitch (Use only 1st Number for Split)</b></label><br>
+                                    <input type="text" id="numField2"><br>
+                                    <label><b>Est. Feed</b></label><br>
+                                    <input type="text" id="estFeed"><br>
+                                    <label><b>Machine Constant</b></label><br>
+                                    <input type="text" id="machineConstant"><br>
+                                </div>
+                                    <div class="outputFields">
+                                    <h3 id="resultField1"></h3>
+                                    <h3 id="circumferenceResult"></h3>
+                                    <h3 id="eResult"></h3>                
+                                    <h3 id="fResult"></h3>
+                                    <h3 id="actualFeedResult"></h3>
+                                    <h3 id="actualStrokesResult"></h3>
+                                    </div>                                    
+                                    <input type="submit" value="Calculate">
+                                </form>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>        
+        <footer>
+            <div class="companyName">
+                <h6>Created by</h6>
+                <h6>&copy;Applied Technology Concepts</h6>
+                <img class="actLogo" src="static/actlogo.png">
+            </div>
+        </footer>
+        <script type="text/javascript" src="calc.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

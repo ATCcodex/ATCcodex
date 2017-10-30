@@ -1,0 +1,70 @@
+
+h1.headerName {
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+    font-family: 'Play', sans-serif;
+    
+}
+body {
+    background-color: #eaedff;
+    font-family: 'Play', sans-serif;
+}
+div.container {
+    margin: auto;
+    display: block;
+}
+.card {
+    background-color: #dee2e8;
+}
+
+div.topCard {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2px 2px 2px 2px;
+    margin-top: 2px;
+}
+
+input {
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 2px 2px 2px;
+    background-color: #eaedff;
+}
+
+div.topForm {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.outputFields h3 {
+    font-size: 18px;
+}
+
+.companyName h6 {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.actLogo {
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin: auto;
+}
+
+.jobInfo {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
