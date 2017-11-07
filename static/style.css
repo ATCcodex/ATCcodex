@@ -68,3 +68,14 @@ div.topForm {
     display: block;
     text-align: center;
 }
+
+iframe.threatMap{
+    margin: auto;
+    display: block;
+}
+
+h1.homeCompanyName{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
