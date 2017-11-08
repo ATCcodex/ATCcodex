@@ -79,3 +79,10 @@ h1.homeCompanyName{
     display: block;
     text-align: center;
 }
+
+.menu li{
+    margin: auto;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 2rem;
+}
