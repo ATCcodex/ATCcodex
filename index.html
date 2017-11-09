@@ -1,76 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">  
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/style.css"> 
-    <strong><nav>
-          <ul class="topNav">
-            <li><a href="home.html">Home</a></li>
+<head>
+  <title>Applied Technology Concepts</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Applied Technology Concepts</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="feedcalculator.html">Feed Calculator</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
           </ul>
-        </nav></strong>
-  </head>
-    <body>
-        <div class="container">
-            <div class="row topRow"> 
-                <div class="col-12 col-8">
-                    <div class="card">
-                        <div class="card-block topCard">
-                            <div class="jobInfo">
-                                <h1 class="headerName">Orange County Broaching</h1>
-                                <label>Company:</label>
-                                <input type="text">
-                                <label>Job Number:</label>
-                                <input type="text">
-                                <label>Part Number:</label>
-                                <input type="text">
-                            </div>
-                            <h1><b>Feed Calculator</b></h1>
-                            <h4>Fellows Z: 1410</h4>
-                            <h4>Fellows #7: 1125</h4>
-                            <form class="inputForm" id="xIsWhatPercentOfY">
-                                <div class="topForm">
-                                    <label><b>Number of Teeth in Cutter</b></label><br>
-                                    <input type="text" id="numField1"><br>
-                                    <label><b>Diametral Pitch (Use only 1st Number for Split)</b></label><br>
-                                    <input type="text" id="numField2"><br>
-                                    <label><b>Est. Feed</b></label><br>
-                                    <input type="text" id="estFeed"><br>
-                                    <label><b>Machine Constant</b></label><br>
-                                    <input type="text" id="machineConstant"><br>
-                                </div>
-                                    <div class="outputFields">
-                                    <h3 id="resultField1"></h3>
-                                    <h3 id="circumferenceResult"></h3>
-                                    <h3 id="eResult"></h3>                
-                                    <h3 id="fResult"></h3>
-                                    <h3 id="actualFeedResult"></h3>
-                                    <h3 id="actualStrokesResult"></h3>
-                                    </div>                                    
-                                    <input type="submit" value="Calculate">
-                                </form>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </div>        
-        <footer>
+        </li>
+        <li><a href="threatmap.html">Live Threat Map</a></li>
+        <li><a href="#"></a></li>
+      </ul>
+<!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+-->
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Collapsible Navbar</h3>
+  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
+  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+</div>
+<footer>
             <div class="companyName">
                 <h6>Created by</h6>
                 <h6>&copy;Applied Technology Concepts</h6>
                 <img class="actLogo" src="static/actlogo.png">
             </div>
         </footer>
-        <script type="text/javascript" src="calc.js"></script>
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js"></script>
-    </body>
+</body>
 </html>
